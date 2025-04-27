@@ -6,8 +6,8 @@ from email.mime.text import MIMEText
 # --- Config ---
 TMDB_API_KEY = "your_tmdb_key"          # Get from TMDB
 OPENROUTER_API_KEY = "your_openrouter_key"
-EMAIL_FROM = "aussievamp2@gmail.com"      # Gmail (or SMTP server)
-EMAIL_TO = "catherine.ellen.sinclair@gmail.com"
+EMAIL_FROM = "fleagle@gmail.com"      # Gmail (or SMTP server)
+EMAIL_TO = "bingo@gmail.com"
 EMAIL_PASSWORD = "your_app_password"     # For Gmail, use an "App Password"  https://myaccount.google.com/apppasswords
 
 # --- OpenRouter Setup ---
