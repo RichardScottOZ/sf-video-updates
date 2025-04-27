@@ -1,3 +1,9 @@
+
+from tmdbv3api import Movie
+
+movie = Movie().details(123)  # Example ID
+summary = movie.overview  # "A young rebel battles the Galactic Empire..."
+
 import requests
 
 OPENROUTER_API_KEY = "your_openrouter_key"
