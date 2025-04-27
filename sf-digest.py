@@ -6,12 +6,13 @@ from email.mime.text import MIMEText
 # --- Config ---
 TMDB_API_KEY = "your_tmdb_key"          # Get from TMDB
 OPENROUTER_API_KEY = "your_openrouter_key"
-EMAIL_FROM = "your_email@gmail.com"      # Gmail (or SMTP server)
-EMAIL_TO = "recipient@example.com"
+EMAIL_FROM = "aussievamp2@gmail.com"      # Gmail (or SMTP server)
+EMAIL_TO = "catherine.ellen.sinclair@gmail.com"
 EMAIL_PASSWORD = "your_app_password"     # For Gmail, use an "App Password"  https://myaccount.google.com/apppasswords
 
 # --- OpenRouter Setup ---
 OPENROUTER_MODEL = "anthropic/claude-3-haiku"  # $0.25/$0.75 per 1K tokens
+OPENROUTE_MODEL= "mistralai/mistral-small-3.1-24b-instruct:free"
 
 def query_openrouter(prompt: str) -> str:
     response = requests.post(
