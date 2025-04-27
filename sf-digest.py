@@ -8,7 +8,7 @@ TMDB_API_KEY = "your_tmdb_key"          # Get from TMDB
 OPENROUTER_API_KEY = "your_openrouter_key"
 EMAIL_FROM = "your_email@gmail.com"      # Gmail (or SMTP server)
 EMAIL_TO = "recipient@example.com"
-EMAIL_PASSWORD = "your_app_password"     # For Gmail, use an "App Password"
+EMAIL_PASSWORD = "your_app_password"     # For Gmail, use an "App Password"  https://myaccount.google.com/apppasswords
 
 # --- OpenRouter Setup ---
 OPENROUTER_MODEL = "anthropic/claude-3-haiku"  # $0.25/$0.75 per 1K tokens
